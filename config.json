@@ -1,0 +1,16 @@
+{
+  "inbounds": [{
+    "port": 10000,
+    "protocol": "vless",
+    "settings": {
+      "clients": [{"id": "b66c0d02-39ee-47e2-bc05-b0496df8398e"}],
+      "decryption": "none"
+    },
+    "streamSettings": {
+      "network": "ws"
+    }
+  }],
+  "outbounds": [{
+    "protocol": "freedom"
+  }]
+}
